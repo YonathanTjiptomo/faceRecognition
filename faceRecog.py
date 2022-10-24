@@ -58,5 +58,9 @@ def api_user():
 
     return jsonify({
         'status': status,
-        'user': user
+        'user': user[0],
+        'status': status,
+        'user': user[1],
+        'status': status,
+        'user': user[2],
     })
