@@ -15,7 +15,7 @@ def api_user():
     model = load_model('keras_Model.h5', compile=False)
 
     # Load the labels
-    class_names = ["Yonatham", "Agung", "Nofrets"]
+    class_names = ["Yonathan", "Agung", "Nofrets"]
 
     # Create the array of the right shape to feed into the keras model
     # The 'length' or number of images you can put into the array is
