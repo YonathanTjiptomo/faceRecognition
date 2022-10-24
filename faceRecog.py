@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 import numpy as np
 
 app = Flask(__name__)
-
+@app.route('/yonathan/absensi')
 def api_user():
 
     # Disable scientific notation for clarity
