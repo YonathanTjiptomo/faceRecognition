@@ -53,14 +53,9 @@ def api_user():
     # output
     status = "success"
     user = class_name
-
     # save data absen
 
     return jsonify({
         'status': status,
-        'user': user[0],
-        'status': status,
-        'user': user[1],
-        'status': status,
-        'user': user[2],
+        'user': user,
     })
